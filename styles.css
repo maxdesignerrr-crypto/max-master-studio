@@ -386,3 +386,25 @@ body {
 .bank-list li { display:flex; gap:12px; align-items:center; padding:10px 0; border-bottom:1px solid var(--border); }
 .iban { font-family:monospace; color:var(--text); }
 .copy-account { margin-left:auto; border-radius:8px; padding:8px 12px; border:none; background:#eee; cursor:pointer; }
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px !important;
+    line-height: 1.15 !important;
+  }
+
+  .hero p {
+    font-size: 17px !important;
+    line-height: 1.35 !important;
+  }
+
+  .hero {
+    padding: 36px 18px !important;
+    min-height: auto !important;
+  }
+
+  .hero img,
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
